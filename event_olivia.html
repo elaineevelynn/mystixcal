@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="img/logom 2.png" />
+    <script src="https://kit.fontawesome.com/dd5559ee21.js" crossorigin="anonymous"></script>
+    <!-- The integrity attribute allows a browser to check the fetched script to ensure that the code is never loaded if the source has been manipulated.-->
+    <!--A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.1/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.1/dist/js/uikit-icons.min.js"></script>
+
+    <link href="style/css_events.css" rel="stylesheet">
+
+    <title>Mystixcal</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="
+                background-image: linear-gradient(
+                    to bottom right,
+                    #5c1c72,
+                    black
+                );
+            ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo 2.png" alt="" style="height: 40px" />
+            </a>
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                <form class="d-flex nav-item col-lg-6 mb-sm-0 mx-auto mb-2" action="page_events.html">
+                    <input class="form-control me-2" type="search" placeholder="Search " aria-label="Search" />
+                    <button class="btn btn-outline-light" type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+                <div class="d-flex mb-sm-0">
+                    <ul class="navbar-nav">
+                        <li class="d-flex nav-item" style="margin-right: 2px">
+                            <a href="page_events.html" class="nav-link" id="navbar-links">
+                                <i class="fa fa-calendar-days mx-1"></i>Events
+                            </a>
+                        </li>
+                        <li class="d-flex nav-item" style="margin-right: 15px">
+                            <a href="#footer" class="nav-link" id="navbar-links">
+                                <i class="fa fa-users mx-1"></i>About Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex mb-sm-0 ms-auto">
+                <div class="me-2">
+                    <a href="signup.html"><button class="btn btn-outline-light" style="margin-right: 5px" type="submit">
+                            Sign Up
+                        </button></a>
+                    <a href="login.html"><button class="btn btn-light" type="submit">
+                            Log In
+                        </button></a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!--Navbar END-->
+
+    <!-- Background image -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/olivia.png" class="d-block w-100" alt="" />
+        </div>
+    </div>
+    <!-- Background image END -->
+
+    <!--Left Right Content-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="item">
+                    <br />
+                    <ul class="description-tab" uk-tab>
+                        <li class="description-tab-item ">
+                            <a href="#" style="color: white;">
+                                Description
+                            </a>
+                        </li>
+                        <li class="description-tab-item">
+                            <a href="#" style="color: white;">
+                                Tickets
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="uk-switcher">
+                        <li class="description-panel-item">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget fringilla
+                                libero,
+                                at rutrum tellus. In non lectus imperdiet, hendrerit diam at, vestibulum ligula. Fusce
+                                arcu
+                                nisl, consequat nec diam et, eleifend tempor tortor. Donec cursus nunc eu congue porta.
+                                Fusce malesuada porta odio, eget ultricies enim mollis id. Nam id volutpat felis, nec
+                                semper
+                                enim. In dictum euismod tellus ut molestie. Fusce at lobortis est, iaculis rutrum
+                                turpis.
+                                Sed rhoncus, sem a aliquet mollis, tortor orci euismod libero, eget ornare dui sapien
+                                pellentesque ipsum. Ut lobortis ipsum vitae posuere tempus. Vestibulum scelerisque
+                                gravida
+                                est. Pellentesque metus magna, elementum vel vestibulum id, posuere quis est. Curabitur
+                                scelerisque vel neque a eleifend.
+
+                                Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse placerat vel
+                                ligula quis aliquet. Morbi varius, felis eget bibendum cursus, quam urna pulvinar nisi,
+                                sit
+                                amet iaculis felis orci et nulla. Proin consequat pellentesque leo id lacinia. Sed
+                                ultrices
+                                arcu nec lacus sodales pretium. Nullam in venenatis nunc. Fusce metus ligula, tempor eu
+                                faucibus sit amet, ultrices ac neque.
+
+                                Nunc euismod, metus id commodo consectetur, mauris nunc cursus velit, eget malesuada leo
+                                eros vitae turpis. In tempor odio vel est hendrerit facilisis. Nunc non sodales arcu,
+                                vitae
+                                vehicula felis. Praesent lobortis eleifend lectus, sit amet sollicitudin purus molestie
+                                id.
+                                Praesent lacinia purus ut velit pulvinar maximus. In sagittis ex placerat eros
+                                ullamcorper,
+                                volutpat interdum nibh auctor. Duis in nisi et purus vulputate luctus porta eget lorem.
+                                Nam
+                                nec elementum urna. Nullam sollicitudin volutpat tortor sit amet sollicitudin. Phasellus
+                                mollis pretium bibendum. Donec vitae blandit felis, sit amet molestie magna.
+                            </p>
+                        </li>
+                        <li class="description-panel-item">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget fringilla
+                                libero,
+                                at rutrum tellus. In non lectus imperdiet, hendrerit diam at, vestibulum ligula. Fusce
+                                arcu
+                                nisl, consequat nec diam et, eleifend tempor tortor. Donec cursus nunc eu congue porta.
+                                Fusce malesuada porta odio, eget ultricies enim mollis id. Nam id volutpat felis, nec
+                                semper
+                                enim. In dictum euismod tellus ut molestie. Fusce at lobortis est, iaculis rutrum
+                                turpis.
+                                Sed rhoncus, sem a aliquet mollis, tortor orci euismod libero, eget ornare dui sapien
+                                pellentesque ipsum. Ut lobortis ipsum vitae posuere tempus. Vestibulum scelerisque
+                                gravida
+                                est. Pellentesque metus magna, elementum vel vestibulum id, posuere quis est. Curabitur
+                                scelerisque vel neque a eleifend.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-1" style="text-align: center">
+                <span class="vr"></span>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card uk-card" style="padding: 0px; margin-top: 2rem;">
+                    <div class="card-body" style="padding: 2rem;">
+                        <h3 class="card-title"><b>Olivia Rodriguez</b></h3>
+                        <h4 style="color: grey;">Olivia</h4><br>
+                        <p class="card-text">
+                        <p>
+                            <i class="fa-regular fa-calendar-days mx-1"></i>05 April - 06 April 2024
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-clock mx-1"></i>15:00 - 21:00 WIB
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-location-dot mx-1"></i>Gelora Bung Karno, Jakarta
+                        </p>
+                        </p>
+                        <hr />
+                        <div class="container-button d-flex">
+                            <button class="minus mx-auto my-auto" aria-label="Decrease by one" disabled>
+                                <i class="fa-solid fa-minus mx-auto"></i>
+                            </button>
+                            <div class="number dim mx-auto">0</div>
+                            <button class="plus mx-auto my-auto" aria-label="Increase by one">
+                                <i class="fa-solid fa-plus mx-auto"></i>
+                            </button>
+                        </div>
+                        <p>
+                            <a href="booking.html" style="text-decoration: none">
+                                <button class="button button2">Buy Tickets</button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Left Right Content END-->
+        <br />
+    </div>
+
+    <script>
+        const buttons = document.querySelectorAll("button");
+        const minValue = 0;
+        const maxValue = 10;
+
+        buttons.forEach((button) => {
+            button.addEventListener("click", (event) => {
+                // 1. Get the clicked element
+                const element = event.currentTarget;
+                // 2. Get the parent
+                const parent = element.parentNode;
+                // 3. Get the number (within the parent)
+                const numberContainer = parent.querySelector(".number");
+                const number = parseFloat(numberContainer.textContent);
+                // 4. Get the minus and plus buttons
+                const increment = parent.querySelector(".plus");
+                const decrement = parent.querySelector(".minus");
+                // 5. Change the number based on click (either plus or minus)
+                const newNumber = element.classList.contains("plus")
+                    ? number + 1
+                    : number - 1;
+                numberContainer.textContent = newNumber;
+                console.log(newNumber);
+                // 6. Disable and enable buttons based on number value (and undim number)
+                if (newNumber === minValue) {
+                    decrement.disabled = true;
+                    numberContainer.classList.add("dim");
+                    // Make sure the button won't get stuck in active state (Safari)
+                    element.blur();
+                } else if (newNumber > minValue && newNumber < maxValue) {
+                    decrement.disabled = false;
+                    increment.disabled = false;
+                    numberContainer.classList.remove("dim");
+                } else if (newNumber === maxValue) {
+                    increment.disabled = true;
+                    numberContainer.textContent = `${newNumber}+`;
+                    element.blur();
+                }
+            });
+        });
+    </script>
+
+    <!--Footer-->
+
+    <footer class="container-fluid" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="footer_first_col_up" style="color: lightgray; text-align: left">
+                        <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque commodo tortor
+                            ante,
+                            sed consequat nulla ultrices sit amet. Integer ornare aliquet metus, vitae volutpat dui
+                            bibendum
+                            eu. Integer eget eleifend ipsum. Aliquam tristique orci non facilisis lobortis. Pellentesque
+                            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras
+                            sagittis
+                            vehicula sollicitudin.
+                        </p>
+                        <br>
+                    </div>
+
+                    <div class="footer_first_col_down" style="display: flex; justify-content: flex-start;">
+                        <p>
+                        <p style="color:white;"><b>Follow Us</b></p>
+                        <p>
+                    </div>
+
+                    <div class="footer_first_col_down_icon" style="display: flex; justify-content: flex-start;">
+                        <p>
+                            <button type="button">
+                                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            </button>
+                            <button type="button">
+                                <a href="https://www.telegram.com/"><i class="fa-brands fa-telegram"></i></a>
+                            </button>
+                            <button type="button">
+                                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                            </button>
+                            <button type="button">
+                                <a href="https://www.discord.com/"><i class="fa-brands fa-discord"></i></a>
+                            </button>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="footer_second_col" style="justify-content: flex-start;">
+                        <a href="qna.html" style="color: white; text-decoration: none;">
+                            <p><b>QnA</b></p>
+                        </a>
+                        <a href="terms_condition.html" style="color: white; text-decoration: none;">
+                            <p><b>Terms and
+                                    Conditions</b></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

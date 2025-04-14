@@ -1,0 +1,68 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode",
+        "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to bottom right,
+            black,
+            purple);
+}
+
+.container {
+    background-color: white;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-top: 30px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+    outline: none;
+    border: 1px solid #04aa6d;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.checkbtn {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode",
+        "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.login {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
